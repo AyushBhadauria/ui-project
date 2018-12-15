@@ -1,0 +1,56 @@
+<div class="section-wrap">
+  <h4 class="bolder align-center">How to Use Currency Switch</h4>
+  <div class="process-wrap align-center my-2">
+    <div class="process">
+      <div class="circle">
+        <span class="circle-text">1</span>
+      </div>
+      <div class="line-wrap">
+        <div class="line"></div>
+      </div>
+      <div class="circle">
+        <span class="circle-text">2</span></div>
+      <div class="line-wrap">
+        <div class="line"></div>
+      </div>
+      <div class="circle">
+        <span class="circle-text">3</span></div>
+        <div class="description-wrap">
+            <div class="des">
+              <small>Get the app for FREE. Just click on the ‘Start Now’ button to begin!</small>
+            </div>
+            <div class="des mar-left">
+                <small>Add the app to your browser</small>
+              </div>
+              <div class="des mar-left">
+                  <small>Open a new tab page to start converting currency</small>
+                </div>
+          </div>
+    </div>
+
+  </div>
+  <div class="bg-table">
+     <div class="table-wrapper">
+       <div class="icon-titles-wrap">
+         <div class="icon-title" *ngFor="let des of iconArray">
+           <img [src] = "des.icon">
+           <p class="align-center">{{des.text}}</p>
+         </div>
+       </div>
+       <div class="table">
+         <table>
+           <tr>
+              <th colspan="3">
+                  Currencies you can convert to and from
+               </th>
+           </tr>
+            <tr *ngFor =" let content of tableContent">
+              <td>{{content.first}} </td>
+              <td>{{content.second}} </td>
+              <td>{{content.third}} </td>
+            </tr>
+         </table>
+       </div>
+     </div>
+  </div>
+</div>

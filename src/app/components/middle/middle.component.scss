@@ -1,0 +1,93 @@
+.process-wrap {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;;
+    .process {
+        .circle {
+            display: inline-block;
+            height: 72px;
+            width: 72px;
+            border-radius: 50%;
+            background-color: #3bd56f;
+            position: relative;
+            .circle-text {
+                color: #fff;
+                font-size: 30px;
+                position: absolute;
+                top: 25%;
+                left: 35%;
+                font-weight: bolder;
+            }
+        }
+        .line-wrap {
+            display: inline-block;
+            height: 72px;
+            .line {
+                position: relative;
+                top: 50%;
+                 transform: translate(0, -50%);
+                width: 175px;
+                height: 1px;
+                background-color: #3bd56f; 
+            }
+        }
+
+    }
+    .description-wrap {
+        .des {
+            float: left;
+            display: inline-block;
+            width: 160px;
+        }
+        .mar-left {
+            margin-left: 100px;
+        }
+    }
+}
+.bg-table {
+    margin:auto;
+    width: 800px;
+    background-color: #1d2a57;
+    height: 450px;
+    .table-wrapper {
+        
+        padding: 20px;
+        .icon-titles-wrap {
+            overflow: auto;
+            padding: 20px;
+            .icon-title {
+                float: left;
+                padding: 0 15px; 
+                width: calc((100% / 3) - 30px );
+                img {
+                    position: relative;
+                    left: 50%;
+                    transform: translate(-50%,  0);
+                }
+                p {
+                    font-size: 11px;
+                    color: #fff
+                }
+            }
+        }
+    }
+}
+.table {
+    width: 640px;
+    margin: auto; 
+    table {
+        width: 100%;
+        th {
+            color: #fff;
+            padding: 20px;
+            background-color: #1db8ff;
+            text-align: center; 
+        }
+        td {
+            background: lightgoldenrodyellow;
+            padding: 15px;
+            text-align: center; 
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.header {
+  position: relative;
+  height: 850px;
+  object-fit: contain;
+  background-image: url('../../../assets/images/shape-1.png');
+//  background-color: #1d2a57;
+.vector-bg {
+  //  width: 1440px;
+  color: #fff;
+    height: 678px;
+    object-fit: contain;
+//   opacity: 0.03;
+//   background-image: url('assets/images/vector-object.jpg');
+  .heading {
+      padding-top: 30px;
+      position: relative;
+      overflow: auto;
+      img {
+          
+          float: left;
+      }
+      h4 {
+          margin-left: 10px;
+          float: left;
+          width: 50%;
+          color: #fff;
+          vertical-align: top;
+      }
+  }
+  }
+}
+.top-section{
+
+    width: 230px;
+    margin: auto
+}
+.in-block {
+   display: inline-block;
+}
+
+.text-wrapper {
+ .title {
+     font-size: 49px;
+     margin-bottom: 10px;
+    
+ }
+}
+.start-btn {
+    button {
+        width: 327px;
+        height: 92px;
+        background-color: #3bd56f;
+        color: #fff;
+        font-size: 33px;
+    }
+}
+.bottom-text {
+   margin-top: 120px;
+   color:gray;
+   width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+
+}

@@ -1,0 +1,37 @@
+$box-height: 376px;
+$box-width: 465px;
+
+span.line {
+    height: 1px;
+    background-color: #3bd56f;
+}
+.title-wrap {
+    height: 60px;
+}
+.gallery {
+    margin-top: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    .gal-wrap {
+        position: relative;
+        height: 450px;
+        img {
+            width: $box-width;
+            height: $box-height;
+        }
+        .flex-box {
+            width: $box-width;
+          //  height: $box-height;
+            position: absolute;
+            right: 0;
+            top: calc(376px / 2);
+        }
+        .text {
+            width: $box-width;
+            background: #1d2a57;
+            padding: 30px;
+            color: white;
+        }
+    }
+}

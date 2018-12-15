@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Roboto", sans-serif;
+}
+.m-0 {
+    margin: 0;
+}
+.mt-1 {
+    margin-top: 10px;
+}
+.mt-2 {
+    margin-top: 20px;
+}
+.mt-3 {
+    margin-top: 30px;
+}
+.my-2 {
+    margin: 20px 0;
+}
+.bolder {
+    font-weight: 600px;
+}
+.align-center {
+    text-align: center;
+}
+.dis-block {
+    display: block;
+}
+.caret-wrap {
+    height: 100px;
+    img {
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    }
+}
+.wrap-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+small {
+    color: gray;
+}
+.section-wrap {
+    margin: 25px 0;
+}
